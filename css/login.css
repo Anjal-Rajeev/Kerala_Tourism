@@ -262,7 +262,7 @@ h6{
     text-align: center;
     font-weight: bold;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .form-container input{
@@ -271,13 +271,13 @@ h6{
     outline: 0;
     border-width: 0 0 2px;
     padding: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: rem;
     font-weight: bold;
     
     
   }
   .form-container input:focus{
-    border-color: green;
+    border-color: blue;
   }
 
   .form-container label{
@@ -307,6 +307,7 @@ h6{
     font-weight: bold;
     color: #E1FFEE;
     font-size: medium;
+    margin-top: 2rem;
   }
   .login-btn:hover{
     background-color: green;
@@ -363,3 +364,40 @@ h6{
     width: 100%;
     background-color: #B1D7B4;
   }
+
+
+  /* --------------------------------validation------------------------- */
+
+  #emailValidate{
+    margin-top: 0;
+    font-size:x-small; 
+    align-self: flex-start;
+    margin-left: 15%;
+    color: red;
+  }
+
+  #numberValidate{
+    margin-top: 0;
+    font-size:x-small; 
+    align-self: flex-start;
+    margin-left: 15%;
+    color: red;
+  }
+
+  #passwordValidate{
+    margin-top: 0;
+    font-size:x-small; 
+    align-self: flex-start;
+    margin-left: 15%;
+    color: red;
+  }
+
+  .content label{
+    margin-top: 1rem;
+  }
+  .content h6{
+    margin-top: 1rem;
+    
+  }
+
+  
