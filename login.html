@@ -72,8 +72,9 @@
                     <input onblur="emailValidation();" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, FontAwesome; " type="email" name="" id="email" placeholder="&#xf0e0;  Type your email">
                     <span id="emailValidate"></span>
                     <label for="password">Password</label>
-                    <input onblur="passwordValidation();" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, FontAwesome; " type="password" name="" id="password" placeholder="&#xf023;  Type your password">
+                    <input onblur="passwordValidation();" oninput="strength();" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, FontAwesome; " type="password" name="" id="password" placeholder="&#xf023;  Type your password">
                     <span id="passwordValidate"></span>
+                    <span id="passwordIndicator"></span>
                     <p>Forgot password?</p>
                     <input type="submit" value="LOGIN" class="login-btn" onclick="return submitForm();">
                     <h6>Or login using</h6>
