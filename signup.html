@@ -76,8 +76,9 @@
                     <input onblur="numberValidation();" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, FontAwesome; " type="text" name="" id="number" placeholder="&#xf095;  Type your phone number">
                     <span id="numberValidate"></span>
                     <label for="password">Password</label>
-                    <input onblur="passwordValidation();" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, FontAwesome; " type="password" name="" id="password" placeholder="&#xf023;  Create password">
+                    <input onblur="passwordValidation();" oninput="strength();" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, FontAwesome; " type="password" name="" id="password" placeholder="&#xf023;  Create password">
                     <span id="passwordValidate"></span>
+                    <span id="passwordIndicator"></span>
                     <input type="submit" value="SIGN UP" class="login-btn" onclick="return submitForm();">
                     <!-- <button type="submit" class="login-btn" onclick="return submitForm();">SIGN UP</button> -->
                     <h6>Or Sign up using</h6>
