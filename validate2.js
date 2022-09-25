@@ -124,3 +124,22 @@ function submitForm(){
    
       
 }
+var passwordindicator = document.getElementById("passwordIndicator");
+
+function strength(){
+    if(password.value.length <= 4){
+        passwordindicator.innerHTML = "Easy peasy!";
+        passwordindicator.style.color = "black";
+    }else if(password.value.length <= 6){
+        passwordindicator.innerHTML = "Medium !";
+        passwordindicator.style.color = "red";
+    }
+    else if(password.value.length <= 8){
+        passwordindicator.innerHTML = "Strong !";
+        passwordindicator.style.color = "orange";
+    }
+    else if(password.value.length > 8){
+        passwordindicator.innerHTML = "Excellent !";
+        passwordindicator.style.color = "green";
+    }
+}
