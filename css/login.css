@@ -391,6 +391,16 @@ h6{
     margin-left: 15%;
     color: red;
   }
+  #passwordIndicator{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:x-small; 
+    align-self: flex-end;
+    margin-right: 15%;
+    /* margin-left: 15%; */
+    /* color: red; */
+    display: inline;
+  }
 
   .content label{
     margin-top: 1rem;
